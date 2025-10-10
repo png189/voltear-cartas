@@ -1,0 +1,13 @@
+.seleccionada {
+	border-color: brown;
+	border-style: solid;
+	border-width: 10px;
+}
+
+td {
+	padding: 10px;
+}
+
+table img {
+	display: none;
+}

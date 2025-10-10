@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltear cartas</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <h1>Puntos:<span id="puntos">0</span>pts</h1>
+    <div>
+        <button id="reiniciar">Volver a empezar</button>
+    </div>
+    <diV style="float: left;">
+        <table  >
+            <tr>
+                <td><img class="carta" title="aguila" src=""/></td>
+                <td><img class="carta" title="elefante" src=""/></td>
+                <td><img class="carta" title="guacamaya" src=""/></td>
+                <td><img class="carta" title="mono" src=""/></td>
+            </tr>
+            <tr>
+                <td><img class="carta" title="Rinoceronte" src=""/></td>
+                <td><img class="carta" title="tigre" src=""/></td>
+                <td><img class="carta" title="tucan" src=""/></td>
+                <td><img class="carta" title="elefante" src=""/></td>
+            </tr>
+            <tr>
+                <td><img class="carta" title="tucan" src=""/></td>
+                <td><img class="carta" title="venado" src=""/></td>
+                <td><img class="carta" title="venado" src=""/></td>
+                <td><img class="carta" title="aguila" src=""/></td>
+            </tr>
+            <tr>
+                <td><img class="carta" title="Rinoceronte" src=""/></td>
+                <td><img class="carta" title="mono" src=""/></td>
+                <td><img class="carta" title="guacamaya" src=""/></td>
+                <td><img class="carta" title="tigre" src=""/></td>
+            </tr>
+        </table>
+    </diV>
+
+    <div id="div-lista" style="float: left">
+        <h3>Historial de seleccion</h3>
+        <ol id="lista">
+
+        </ol>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+	<script src="js/cookie.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
